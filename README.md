@@ -6,6 +6,7 @@ This is a repository for the PartySOME dataset. It contains data on the social m
 
 Jan, M., & Sattelmayer, L. (2025). PartySOME: A comprehensive dataset on political parties’ SOcial MEdia activity. Party Politics, 0(0). https://doi.org/10.1177/13540688251388763
 
+```{bibtex}
 @article{jan2025partysome,
   title={PartySOME: A comprehensive dataset on political parties’ SOcial MEdia activity},
   author={Jan, Malo and Sattelmayer, Luis},
@@ -14,3 +15,4 @@ Jan, M., & Sattelmayer, L. (2025). PartySOME: A comprehensive dataset on politic
   year={2025},
   publisher={SAGE Publications Sage UK: London, England}
 }
+```
