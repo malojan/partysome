@@ -59,21 +59,23 @@ Monthly party-level issue salience, using the Comparative Agendas Project
   `.html`), which also describes the differences from v1.0.
 - **v1.0**: 219 parties in 18 countries, on Facebook, Twitter and
   Instagram, through end of 2023. This is the version used in the
-  companion paper; use it to replicate the published results. Codebook:
+  companion paper. Codebook:
   `partysome-ii/v1.0/partysome_ii_codebook_v1.0.md`.
 
-Companion paper: Jan, M., & Sattelmayer, L. PartySOME II: a dataset on
-parties' issue agendas on social media. *West European Politics*
-(forthcoming).
+Companion paper: Jan, M., & Sattelmayer, L. (2026). PartySOME II: a
+dataset on parties' issue agendas on social media. *West European
+Politics*, 1–20. https://doi.org/10.1080/01402382.2026.2734520
 
 ```bibtex
-@misc{jan_sattelmayer_2026,
-  title={Issue Competition on Social Media: A new comparative dataset on Parties' issue agendas},
-  url={osf.io/preprints/socarxiv/x47qr_v1},
-  publisher={SocArXiv},
+@article{jan_sattelmayer_2026,
+  title={PartySOME II: a dataset on parties' issue agendas on social media},
   author={Jan, Malo and Sattelmayer, Luis},
+  journal={West European Politics},
+  pages={1--20},
   year={2026},
-  month={May}
+  publisher={Taylor \& Francis},
+  doi={10.1080/01402382.2026.2734520},
+  url={https://doi.org/10.1080/01402382.2026.2734520}
 }
 ```
 
