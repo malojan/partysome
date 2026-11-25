@@ -57,7 +57,10 @@ Monthly party-level issue salience, using the Comparative Agendas Project
   Australia, Canada, New Zealand and the United States), on Facebook,
   Twitter, Instagram, TikTok, Telegram and Bluesky, through October 2026.
   Codebook: `partysome-ii/v2.0/partysome_ii_codebook_v2.0.pdf` (also as
-  `.html`), which also describes the differences from v1.0.
+  `.html`), which also describes the differences from v1.0. The release
+  includes the hand-coded validation sample (post ids and labels). The
+  hand-coded posts used to train the policy classifier and to validate
+  both classifiers, with their texts, are available on request.
 - **v1.0**: 219 parties in 18 countries, on Facebook, Twitter and
   Instagram, through end of 2023. This is the version used in the
   companion paper. Codebook:
