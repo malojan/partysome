@@ -7,13 +7,20 @@ research on party competition and political communication across
 countries, platforms, and time.
 
 This repository holds the published, citable data releases behind the
-project's two papers. A separate, actively developed website at
-**[partysome.org](https://www.partysome.org/)** offers a public dashboard
-for exploring what parties are talking about close to real time. That
-site is in development and its underlying data is not fixed: it changes
-as new data is collected, bugs are fixed, and coverage gaps are found and
-addressed. It does not represent a citable release — for that, use the
-frozen datasets in this repository.
+project's two papers.
+
+## partysome.org
+
+**[partysome.org](https://www.partysome.org/)** is the project's public
+website. It shows what parties in more than 20 countries are talking
+about on social media, updated every day: the issues each party
+emphasises, how attention to an issue changes over time, and how parties
+and countries compare, on Facebook, X/Twitter, Instagram, TikTok,
+Telegram and Bluesky. It is available in English, French and German.
+
+The website's data changes as new posts are collected and as errors are
+found and corrected, so it is not a citable release. For research, use
+the frozen datasets in this repository.
 
 
 ## PartySOME: Social Media Activity ([`partysome/`](partysome/), v1.0)
@@ -40,15 +47,24 @@ https://doi.org/10.1177/13540688251388763
 }
 ```
 
-## PartySOME II: Issue Agendas ([`partysome-ii/`](partysome-ii/), v1.0)
+## PartySOME II: Issue Agendas ([`partysome-ii/`](partysome-ii/), v2.0 and v1.0)
 
 Monthly party-level issue salience, using the Comparative Agendas Project
-(CAP) classification scheme, on Facebook, Twitter, and Instagram for 18
-countries, through end of 2023.
+(CAP) classification scheme.
 
-Codebook: `partysome-ii/v1.0/partysome_ii_codebook_v1.0.md`. Companion paper: Jan,
-M., & Sattelmayer, L. PartySOME II: a dataset on parties' issue agendas
-on social media. *West European Politics* (forthcoming). 
+- **v2.0** (current): 268 parties in 22 countries (the 18 of v1.0 plus
+  Australia, Canada, New Zealand and the United States), on Facebook,
+  Twitter, Instagram, TikTok, Telegram and Bluesky, through October 2026.
+  Codebook: `partysome-ii/v2.0/partysome_ii_codebook_v2.0.pdf` (also as
+  `.html`), which also describes the differences from v1.0.
+- **v1.0**: 219 parties in 18 countries, on Facebook, Twitter and
+  Instagram, through end of 2023. This is the version used in the
+  companion paper; use it to replicate the published results. Codebook:
+  `partysome-ii/v1.0/partysome_ii_codebook_v1.0.md`.
+
+Companion paper: Jan, M., & Sattelmayer, L. PartySOME II: a dataset on
+parties' issue agendas on social media. *West European Politics*
+(forthcoming).
 
 ```bibtex
 @misc{jan_sattelmayer_2026,
@@ -60,21 +76,6 @@ on social media. *West European Politics* (forthcoming).
   month={May}
 }
 ```
-
-## In progress
-
-The project is actively being extended beyond these two releases via
-[partysome.org](https://www.partysome.org/), currently a beta, which is
-updated on an ongoing basis (as of writing, data through 2026) rather
-than frozen to a single cutoff. Work in progress there includes:
-
-- the United States added as a new country,
-- collection under way for many parties on Telegram, Bluesky, and
-  TikTok, in addition to the platforms in the releases above
-  
-None of this in-progress work is part of either release above, and its
-coverage is not yet complete. It will be published as its own dataset
-once stable, following the same versioning approach.
 
 If you encounter any errors or issues, please contact malo.jan@sciencespo.fr
 or open an issue on GitHub.
