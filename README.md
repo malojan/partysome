@@ -12,11 +12,12 @@ project's two papers.
 ## partysome.org
 
 **[partysome.org](https://www.partysome.org/)** is the project's public
-website. It shows what parties in more than 20 countries are talking
-about on social media, updated every day: the issues each party
-emphasises, how attention to an issue changes over time, and how parties
-and countries compare, on Facebook, X/Twitter, Instagram, TikTok,
-Telegram and Bluesky. It is available in English, French and German.
+website, updated every day. It covers parties in 38 countries on
+Facebook, X/Twitter, Instagram, YouTube, TikTok, Telegram and Bluesky:
+how much they post, what they talk about (the policy issues each party
+emphasises, for 22 countries), and their audience (followers and
+engagement with their posts). It is available in English, French and
+German.
 
 The website's data changes as new posts are collected and as errors are
 found and corrected, so it is not a citable release. For research, use
