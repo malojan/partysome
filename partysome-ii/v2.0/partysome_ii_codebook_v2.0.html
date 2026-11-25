@@ -64,7 +64,7 @@ td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; white-space:
 <tr><td><code>partysome_ii_monthly_v2.0.csv</code></td><td>Party × month × topic, all platforms pooled</td></tr>
 <tr><td><code>partysome_ii_monthly_{platform}_v2.0.csv</code></td><td>Party × platform × month × topic, one file per platform</td></tr>
 <tr><td><code>partysome_ii_coverage_status_v2.0.csv</code></td><td>One row per party, with its coverage status on each platform</td></tr>
-<tr><td><code>partysome_ii_validation_v2.0.csv</code></td><td>Hand-coded validation sample, with the predictions of the version 2.0 classifiers</td></tr>
+<tr><td><code>partysome_ii_validation_v2.0.csv</code></td><td>Hand-coded validation sample of the companion paper (5,362 posts), with model predictions</td></tr>
 <tr><td><code>partysome_ii_codebook_v2.0.html</code>, <code>.pdf</code></td><td>This codebook</td></tr>
 </tbody>
 </table></div>
@@ -99,7 +99,7 @@ td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; white-space:
 
 <p>The text classified depends on the platform. On Facebook it is the post message; image text and the title or description of a shared link are not used. On Twitter it is the tweet, on Instagram the caption, on Telegram the message and on Bluesky the post text. On TikTok it is the caption, followed by the transcript of the video's speech when TikTok provides one (42.5% of TikTok posts; see Limitations).</p>
 
-<p>The performance of both classifiers was evaluated on a random sample of about 5,400 posts, stratified by country and platform and coded by hand for policy content and CAP topic; the results are reported in Supplementary Material B of the companion paper. The sample is released as <code>partysome_ii_validation_v2.0.csv</code>: for each post, its identifier, country, party, platform, date and language, the hand-coded labels, and the labels predicted by the version 2.0 classifiers. Post texts are not included, in line with the platforms' terms of use. The hand-coded posts used to train the policy classifier and to validate both classifiers, with their texts, are available from the authors on request.</p>
+<p>The classification was evaluated on a random sample of 5,362 posts, stratified by country and party and coded by hand following the CAP codebook (a CAP topic, or No Policy Content). Table 1 of the companion paper reports the results on a test split of 1,608 posts, and its Supplementary Material B gives further details. The sample is released as <code>partysome_ii_validation_v2.0.csv</code>: for each post, its identifier, country, party, platform, date and language, the hand-coded label, the train/test split used in the paper, the predictions of the four configurations compared in Table 1, and the labels of the version 2.0 classifiers. Post texts are not included, in line with the platforms' terms of use. The hand-coded posts used to train the policy classifier and to validate both classifiers, with their texts, are available from the authors on request.</p>
 
 <p>Because posts rejected by the first classifier receive no topic, the dataset provides only the recoded measure. The raw <em class="var">n_label</em> and <em class="var">cap_share</em> of version 1.0 are not included.</p>
 
